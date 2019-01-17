@@ -1,0 +1,21 @@
+﻿Сборка начата 17.01.2019 23:09:44.
+     1>Проект "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\MatMul_lab0.vcxproj" в узле 2 (целевые объекты Build).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I. /FIcuda_runtime.h /c "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\kernel.cu" 
+     1>Проект "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\MatMul_lab0.vcxproj" (1) выполняет сборку "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\MatMul_lab0.vcxproj" (1:2) в узле 2 (целевые объекты CudaBuildCore).
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Никита\AppData\Local\Temp\tmp273bd7b78fed415fbfbbb8620926a3fb.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc120.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\kernel.cu"
+         
+         C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc120.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\kernel.cu" 
+         kernel.cu
+     1>Сборка проекта "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\MatMul_lab0.vcxproj" завершена (целевые объекты CudaBuildCore).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\x64\Debug\MatMul_lab0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\x64\Debug\MatMul_lab0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\x64\Debug\MatMul_lab0.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         MatMul_lab0.vcxproj -> C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\x64\Debug\MatMul_lab0.exe
+     1>Сборка проекта "C:\Users\Никита\Documents\Магистратура 2017-2019\CUDA\MatMul_lab0\MatMul_lab0\MatMul_lab0.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.52
